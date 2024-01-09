@@ -1,0 +1,263 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #ffffff;
+font-family: 'Titillium Web', sans-serif;
+};
+
+.van-backgroud{
+    position: relative;
+}
+.blurback{
+min-width:30%;
+height: 250px;
+background-color: white;
+position: absolute;
+ right: 0; 
+top: 10px;
+filter: blur(5rem);
+}
+.logo{
+position: absolute;
+right: -30px;
+}
+.main-nav{
+margin-top: -15px;    
+width: 100%;
+background-color: white;
+height: 70px;
+z-index: 100;
+margin-bottom: 15px;
+
+}
+.flag{
+    margin-right: 50px;
+    margin-top: 25px;
+    
+}
+ul{
+text-align: right;
+}
+.menu-items{
+ display:inline-flex; 
+color: rgb(0, 0, 0);
+padding: 10px;
+margin-top:5px;
+ /* background-color: rgb(4, 71, 71); */
+margin-right: 100px;
+z-index: 1;
+ }
+ .main-menu a{
+text-decoration: none;
+color:black; 
+ }
+ .sub-menu  {
+ display: none; 
+ }
+ .sub-menu ul li{
+text-align: center;
+list-style: none;
+margin-left: -120px;
+margin-top: 50px;
+padding: 2px;
+background-color: #06619a;
+border-radius: 30px;
+color: white;
+
+}
+.sub-menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li:hover .sub-menu{
+display: block;
+position: absolute;
+padding: 2px;
+list-style: none;
+text-align: center;
+}
+.long{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .main-grid {
+    margin-top: 50px;
+display: grid;
+grid-template-columns: 400px 400px 400px;
+/* background-color: rgb(42, 45, 45); */
+/* height: 600px; */
+gap: 15px;
+justify-content: center;
+ }
+  .column1{
+    display: grid;
+    background-color: aliceblue;
+    border: 1px solid black;
+    /* padding: 5px; */
+}
+ .column2{
+    display: grid;
+    background-color: aliceblue;
+    border: 1px solid black;
+ }
+ .column3{
+    display: grid;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.columm-heading1{
+display: grid;
+/* grid-template-rows: 30px 50px 200px; */
+
+
+}
+.top-head{
+background-color: rgb(29, 152, 245);
+/* padding: 20px; */
+text-align: center;
+color: white;
+}
+.hero-img{
+    z-index: 200;
+}
+.content{
+/* background-color: aqua; */
+text-align: center;
+line-height: 30px;
+padding: 30px;
+font-size: larger;
+
+}.image{
+margin-top: 20px;
+margin-left: 8px;
+
+}
+.columm-heading2{
+    display: grid;
+    /* grid-template-rows: 30px 50px 200px; */
+}
+.top-head{
+    background-color: rgb(29, 152, 245);
+    padding: 20px;
+    text-align: center;
+    
+    }
+.content-one{
+    margin-top: -2px;
+    /* background-color: aqua; */
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+    font-size: larger;
+}
+.image-one{
+    margin-top: 20px;
+    margin-left: 22px;
+}
+.regulated{
+color: darkblue;
+
+}
+.content-three{
+    margin-top: -20px;
+    /* background-color: aqua; */
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+    font-size: larger;
+}
+.timely{
+    color: darkblue;
+}
+.speciality{
+text-align: center;
+line-height: 50px;
+}
+  .our-services{
+color: darkblue;
+text-align: center;
+list-style-type: none;
+padding: 10px;
+margin-top: 15px;
+font-size: larger;
+font-weight: bold;
+}
+.our-services a{
+text-decoration: none;
+color:darkblue ;
+}
+.image-three{
+margin-left: 7px;
+margin-top: -5px;
+}
+.about-scope{
+min-width:1230px;
+/* background-color: blue; */
+}
+.myscope{
+text-align: center;
+font-size: xx-large;
+}
+.footer-inside{
+width: 100%;
+background-color: rgb(29, 152, 245);
+height: 500px;
+display: grid;
+grid-template-columns: 500px 500px;
+gap: 100px;
+padding:50px 0  50px 0;
+justify-content: center;
+
+}
+.side-left{
+/* background-color: rgb(177, 135, 135); */
+
+}
+.side-right{
+ /* background-color: rgb(234, 224, 224); */
+ }
+ .info{
+text-align: center;
+font-size: x-large;
+color: white;
+justify-content: center;
+width: 420px;
+padding-left: 100px;
+line-height: 30px;
+ }
+ .form{
+padding: 10px;
+margin: auto;
+/* border: 1px solid black; */
+color: white;
+ }
+.footer-menu{
+display: block;
+margin-top: -125px;
+margin-right: 200px;
+ }
+ .footer-menu a{
+text-decoration: none;
+color: white;
+
+ }
+ .footer-item{
+    color: white;
+ }

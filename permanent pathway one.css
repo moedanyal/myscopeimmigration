@@ -1,0 +1,97 @@
+.main-nav{
+margin-top: -15px;    
+width: 100%;
+background-color: white;
+height: 70px;
+z-index: 100;
+
+}
+.flag{
+    margin-right: 50px;
+    margin-top: 25px;
+    
+}
+.intro-stuti{
+    width: 100%;
+    height: 50px;
+    background-color:#06619a;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px; 
+    color: white;
+    font-size: x-large;
+    }
+.permanent-para1{
+ 
+font-size: large;
+text-align: left;
+line-height: 40px;
+margin-top: 30px;
+padding-left: 120px;
+padding-right: 120px;;
+
+
+}
+.one-line{
+   text-align: center;
+   font-size: xx-large;
+   margin-top: 20px;
+}
+.perma-cat{
+display: grid;
+grid-template-columns: 300px 300px 300px;
+justify-content: center;
+margin-top: 50px;
+gap: 50px;
+position: relative;
+z-index: -1;
+margin-bottom: 300px;
+}
+.cat-one{
+border: 1px solid black;
+height: auto;
+text-align: center;
+line-height: 40px;
+padding: 5px;
+background-color: aliceblue;
+}
+.cat-two{
+border: 1px solid black;
+height: auto;
+text-align: center;
+line-height: 40px;
+padding: 5px;
+background-color: aliceblue;
+}
+.cat-three{
+border: 1px solid black;
+height: auto;
+text-align: center;
+line-height: 40px;
+padding: 5px;
+background-color: aliceblue;
+}
+h2{
+    background-color: deepskyblue;
+    color: rgb(255, 255, 255);
+    height: 100px;
+   
+
+}
+.bgimg{
+position: absolute;
+margin-top: -500px;
+z-index: -5;
+margin-left: 700px;
+opacity: .50;
+}
+.footer{
+z-index: 1;
+
+}
+.highlight{
+    color: midnightblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
