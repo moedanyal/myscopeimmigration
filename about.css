@@ -47,9 +47,10 @@ font-size: larger;
 margin-top: 25px;
 }
 .empty{
-margin-left: 150px;
-margin-top: 20px;
-margin-left: 850px;
+margin-left: 250px;
+margin-top: 130px;
+margin-left: 970px;
+filter: drop-shadow(2px 1px gray);
 }
 .footer-inside{
     width: 100%;
