@@ -10,16 +10,20 @@
     }
     .cat-five{
         border: 1px solid black;
-        height: auto;
+        height: 800px;
         text-align: center;
         line-height: 40px;
         padding: 5px;
         background-color: aliceblue;
         font-size: large;
+        /* background-image: url(images/family@1x.png);
+        background-position: top;
+        background-size: cover; */
+        color: rgb(3, 3, 3);
         }
         .cat-six{
         border: 1px solid black;
-        height: auto;
+        height: 800px;
         text-align: center;
         line-height: 40px;
         padding: 5px;
@@ -28,12 +32,13 @@
         }
         .cat-seven{
         border: 1px solid black;
-        height: auto;
+        height: 1300px;
         text-align: center;
         line-height: 40px;
         padding: 5px;
         background-color: aliceblue;
         font-size: large;
+        margin-bottom: -100px;
         }
         h2{
         background-color: deepskyblue;
@@ -44,9 +49,9 @@
         }
         .bgimg{
         position: absolute;
-        margin-top: -300px;
+        margin-top: -650px;
         z-index: 0;
-        margin-left: 700px;
+        margin-left: 450px;
         /* opacity: .50; */
         }
         .footer{
@@ -88,8 +93,6 @@
          .one-one{
             margin-top: -5px; 
             padding: 5px;
-
-
 
          }  
             

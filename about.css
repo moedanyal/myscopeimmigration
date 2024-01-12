@@ -48,9 +48,10 @@ margin-top: 25px;
 }
 .empty{
 margin-left: 250px;
-margin-top: 130px;
+margin-top: 150px;
 margin-left: 970px;
 filter: drop-shadow(2px 1px gray);
+z-index: -20;
 }
 .footer-inside{
     width: 100%;
