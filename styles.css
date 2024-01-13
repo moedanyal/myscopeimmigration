@@ -71,6 +71,7 @@ padding: 5px;
 background-color: #06619a;
 border-radius: 15px;
 color: white;
+
 }
 .sub-menu ul li a{
     color: #ffffff;
@@ -216,6 +217,7 @@ grid-template-columns: 500px 500px;
 gap: 100px;
 padding:50px 0  50px 0;
 justify-content: center;
+
 }
 .side-left{
 /* background-color: rgb(177, 135, 135); */
